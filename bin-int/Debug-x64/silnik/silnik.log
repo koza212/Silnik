@@ -1,0 +1,13 @@
+﻿  Log.cpp
+C:\Users\Kozlo\source\repos\silnik\silnik\src\Engine\Log.h(16,44): warning C4251: 'Engine::Log::s_CoreLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Engine::Log'
+  (compiling source file 'src/Engine/Log.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1565,7):
+      see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+C:\Users\Kozlo\source\repos\silnik\silnik\src\Engine\Log.h(17,44): warning C4251: 'Engine::Log::s_ClientLogger': 'std::shared_ptr<spdlog::logger>' needs to have dll-interface to be used by clients of 'Engine::Log'
+  (compiling source file 'src/Engine/Log.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.44.35207\include\memory(1565,7):
+      see declaration of 'std::shared_ptr<spdlog::logger>'
+  
+     Creating library C:\Users\Kozlo\source\repos\silnik\bin\Debug-x64\silnik\silnik.lib and object C:\Users\Kozlo\source\repos\silnik\bin\Debug-x64\silnik\silnik.exp
+  silnik.vcxproj -> C:\Users\Kozlo\source\repos\silnik\bin\Debug-x64\silnik\silnik.dll
